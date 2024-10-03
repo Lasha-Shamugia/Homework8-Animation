@@ -1,0 +1,140 @@
+.flex {
+  position: relative;
+}
+.fondo {
+  width: 100%;
+  background: url('../images/Deeeep\ Oceaaan.jpeg'); 
+}
+
+/* octopus */
+
+.octopus {
+  position: absolute;
+  width: 24%; 
+  bottom: 45%; 
+  left: 20%;
+  animation: movingJumping 15s linear infinite alternate;
+}
+@keyframes movingJumping {
+  0% {
+      left: 10%;
+      transform: translateY(0) rotate(0%);
+  }
+  6%, 18%, 31%, 43%, 56%, 68%, 81%, 93% {
+      transform: translateY(13%) rotate(8deg);
+  }
+  12%, 25%, 37%, 50%, 62%, 75%, 87%, 100% {
+      transform: translateY(0) rotate(-8deg);
+  }
+  100% {
+      left: 42%;
+  }
+}
+
+ /* crab  */
+
+.crab {
+  position: absolute;
+  width: 7%;
+  bottom: 20%;
+  animation: move-Crab 3s ease-in-out infinite alternate;
+}
+@keyframes move-Crab {
+  0% {
+    left: 32%;
+    transform: translateY(0) rotate(0deg);
+}
+6%, 18%, 31%, 43%, 56%, 68%, 81%, 93% {
+    transform: translateY(-10px) rotate(5deg);
+}
+12%, 25%, 37%, 50%, 62%, 75%, 87%, 100% {
+    transform: translateY(0) rotate(-5deg);
+}
+100% {
+    left: 52%;
+}
+}
+
+/* images  */
+
+.green-leaf {
+  position: absolute;
+  width: 28%;
+  bottom: 6%;
+  left: 37%;
+}
+.treasure {
+  position: absolute;
+  height: 70%;
+  bottom: 49%;
+  right: 5%;
+}
+.flower {
+  position: absolute;
+  width: 12%;
+  top: 6%;
+  right: 0%;
+}
+.star {
+  position: absolute;
+  width: 9%;
+  bottom: 22%;
+  left: 15%;
+}
+.sea-lion {
+  position: absolute;
+  width: 17%;
+  bottom: 7%;
+  right: 0%;
+}
+.corals {
+  position: absolute;
+  width: 20%;
+  height: 105%;
+  bottom: 1%;
+  left: 0%;
+}
+.qindzi {
+  position: absolute;
+  width: 20%;
+  bottom: 11%;
+  right: 10%;
+}
+
+/* fish  */
+
+.fish-reverse {
+    position: absolute;
+    width: 5%;
+    top: 10%; 
+    animation: moveFish 9s infinite ease-in-out
+}
+@keyframes moveFish {
+  0% {
+    left: 90%;
+  }
+  100% {
+    left: -40%;
+  }
+}
+
+/* seahorse  */
+
+.sea-horse {
+  position: absolute;
+  left: 6%;
+  top: 58%;
+  width: 5%;
+  animation: jump 6s ease-in-out infinite;
+}
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-56%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
