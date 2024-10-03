@@ -21,10 +21,10 @@
       transform: translateY(0) rotate(0%);
   }
   6%, 18%, 31%, 43%, 56%, 68%, 81%, 93% {
-      transform: translateY(13%) rotate(8deg);
+      transform: translateY(13%) rotate(3deg);
   }
   12%, 25%, 37%, 50%, 62%, 75%, 87%, 100% {
-      transform: translateY(0) rotate(-8deg);
+      transform: translateY(0) rotate(-5deg);
   }
   100% {
       left: 42%;
