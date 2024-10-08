@@ -182,7 +182,6 @@
   left: 1%;
   animation: move2 22s infinite ease-in-out alternate;
 }
-
 @keyframes move2 {
   0% {
     bottom: 0%;
@@ -199,7 +198,6 @@
   left: 80%;
   animation: move3 12s infinite linear alternate;
 }
-
 @keyframes move3 {
   0% {
     bottom: -10%;
